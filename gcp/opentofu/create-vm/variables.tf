@@ -1,4 +1,3 @@
-  GNU nano 7.2                        variables.tf                                  
 variable "gcp_credential" {}
 variable "gcp_project" {}
 
