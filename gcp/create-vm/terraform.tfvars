@@ -1,0 +1,6 @@
+gcp_credential  = "tu-credencial-gcp.json"
+gcp_project     = "aritz-urdangarin"
+vm_name         = "debian-vm"
+vm_machine_type = "e2-micro"
+vm_ssh_user     = "user"
+vm_ssh_key_path = "/root/.ssh/id_rsa.pub"
