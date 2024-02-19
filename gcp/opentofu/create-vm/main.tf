@@ -42,6 +42,6 @@ resource "google_compute_instance" "debian" {
       network_tier = "PREMIUM"
     }
     stack_type  = "IPV4_ONLY"
-    subnetwork  = "projects/${var.gcp_project}/regions/us-central1/subnetworks/defa>
+    subnetwork  = "projects/${var.gcp_project}/regions/us-central1/subnetworks/default"
   }
 }
