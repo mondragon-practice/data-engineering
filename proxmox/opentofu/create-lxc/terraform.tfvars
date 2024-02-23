@@ -5,7 +5,7 @@ px_password = "rootroot"
 lxc_hostnames   = ["lxc1", "lxc2", "lxc3"]
 lxc_target_node = "proxmox"
 lxc_password    = "rootroot"
-lxc_template    = "debian-8.0-x86_64.tar.gz"
+lxc_template    = "debian-12-standard_12.2-1_amd64.tar.zst"
 lxc_memory      = "512"
 lxc_cores       = "1"
 
