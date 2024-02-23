@@ -72,3 +72,5 @@ variable "lxc_network_gw" {
   description = "gateway"
   type        = string
 }
+
+variable "ssh_key_path" {}
