@@ -34,6 +34,10 @@ resource "proxmox_lxc" "LXC" {
     ip     = "${var.lxc_network_ips[count.index]}/${var.lxc_network_mask}"
     gw     = var.lxc_network_gw
   }
+  features {
+    # Habilita la anidación de recursos para esta instancia
+    nesting = true
+  }
   
   ssh_public_keys = <<-EOT
            ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDKM2WVgCTWsX+OqPQEFaNJuYYc29+hgnaLVYFG1TAvqkbP9tf3bXtWioesYDoEYXzoyIB5Aqr2Oc4c1fysGbs9gIQEv0GexwZpQXApYzGkZTDeG0NwEbhrvWV>
