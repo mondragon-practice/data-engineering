@@ -17,3 +17,4 @@ lxc_network_ips    = ["10.0.4.10", "10.0.4.11", "10.0.4.12"]
 lxc_network_mask   = 24
 lxc_network_gw     = "10.0.4.2"
 
+lxc_ssh_key_path = "/root/.ssh/id_rsa.pub"
